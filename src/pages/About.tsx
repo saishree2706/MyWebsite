@@ -36,8 +36,9 @@ const About: React.FC = () => {
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               My journey began with a simple curiosity about how things work, which led me into the 
-              world of technology. Over the years, I've had the privilege of working on projects that 
-              have impacted thousands of users while traveling to over 30 countries.
+              world of technology. I generally do not prefer coding unless AI is unable to solve the problem,
+              but when I do, I strive to write clean, efficient code that not only solves problems but also enhances user experiences. 
+              
             </p>
             <div className="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
               <div className="flex items-center">

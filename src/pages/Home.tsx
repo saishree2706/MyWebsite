@@ -22,35 +22,7 @@ const Home: React.FC = () => {
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
-      {/* <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-sky-300/20 to-pink-100/20 dark:from-blue-900/20 dark:via-indigo-900/20 dark:to-blue-900/20"></div>
-        <div className="relative text-center max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 animate-slide-up">
-            Welcome {userData.name ? userData.name : 'Explorer'}
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              to My World
-            </span>
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            A frustrated and confused software engineer still figuring out life.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
-            <Link
-              to="/story"
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 flex items-center justify-center space-x-2"
-            >
-              <span>Read My Story</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <Link
-              to="/about"
-              className="border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
-            >
-              About Me
-            </Link>
-          </div>
-        </div>
-      </section> */}
+      
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Subtle animated gradient blob background */}
         <div className="absolute inset-0 z-0">
@@ -72,12 +44,6 @@ const Home: React.FC = () => {
             </span>
           </h1>
 
-          {/* <p
-      className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in transition-opacity duration-1000"
-      style={{ animationDelay: "0.3s" }}
-    >
-      A frustrated and confused software engineer still figuring out life.
-    </p> */}
 <div
   className="mx-auto mb-8 text-center text-xl md:text-2xl text-gray-600 dark:text-gray-300 animate-fade-in transition-opacity duration-1000 w-full max-w-xs sm:max-w-md md:max-w-xl lg:max-w-2xl"
 >
@@ -95,9 +61,6 @@ const Home: React.FC = () => {
     delaySpeed={2000}
   />
 </div>
-
-
-
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up"
             style={{ animationDelay: "0.6s" }}
@@ -121,6 +84,7 @@ const Home: React.FC = () => {
 
       {/* Travel Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
+        
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
